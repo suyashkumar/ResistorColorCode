@@ -19,31 +19,29 @@ class InterfaceController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-    
         var pickerItems: [WKPickerItem] = [] // Will hold the selectable band colors
         // Create colored band items and add to pickerItems
         for i in 1...10 {
             let band = WKPickerItem()
-            band.contentImage=WKImage(imageName: "\(i).png")
-            pickerItems.append(band) // Add current band color to pickerItems
-            
+            band.contentImage=WKImage(imageName: "\(i).png") // Grab current band color image
+            pickerItems.append(band) // Add current band item to pickerItems
         }
-        // Create Tolerance Picker Items
+        
+        // Create the picker items for tolerance selection
         var pickerItemsTolerance : [WKPickerItem]=[]
         var gold=WKPickerItem()
         gold.contentImage=WKImage(imageName:"gold.png")
         var silver=WKPickerItem()
         silver.contentImage=WKImage(imageName:"silve.png")
-        
         pickerItemsTolerance.append(gold)
         pickerItemsTolerance.append(silver)
-        self.pickerFour.setItems(pickerItemsTolerance)
-        self.pickerThree.setItems(pickerItems)
-        self.pickerTwo.setItems(pickerItems)
-        self.pickerOne.setItems(pickerItems)
         
-        // test.setImage(UIImage(contentsOfFile: "sqtest.png"))
-        // Configure interface objects here.
+        // Add colored band item sets to the pickers:
+        self.pickerOne.setItems(pickerItems)
+        self.pickerTwo.setItems(pickerItems)
+        self.pickerThree.setItems(pickerItems)
+        self.pickerFour.setItems(pickerItemsTolerance)
+
     }
     
     override func willActivate() {
@@ -57,15 +55,9 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBOutlet var pickerFour: WKInterfacePicker!
-    
-    
     @IBOutlet var pickerThree: WKInterfacePicker!
-    
     @IBOutlet var pickerTwo: WKInterfacePicker!
-    
     @IBOutlet var pickerOne: WKInterfacePicker!
-    
-    
     @IBOutlet var resistorValue: WKInterfaceLabel!
     
     @IBAction func oneChanged(value: Int) {
@@ -88,8 +80,15 @@ class InterfaceController: WKInterfaceController {
     }
     
     func updateResistance(){
-        var valueString=""
-        let resistance=CLongLong(((index1*10)+index2))*CLongLong(pow(10.0,Double(index3)))
+        /*
+            This function is called whenever a band picker is touched. It recalculates the resistance value
+            based on the current positions of all band selectors and then updates the resistorValue label
+            in the UI to reflect the updated value.
+        */
+        var valueString="" // This will hold the final resistance value (and tolerance) to write to the UI
+        let resistance=CLongLong(((index1*10)+index2))*CLongLong(pow(10.0,Double(index3))) // Calculate the resistance
+        
+        // Now check the size of the calculated resistance to determine the correct SI prefix to apply when printing to screen (e.g. kΩ):
         if (resistance/1000<1){
             valueString=valueString+String(resistance)+" Ω"
         }
@@ -103,10 +102,10 @@ class InterfaceController: WKInterfaceController {
             valueString=valueString+String(Double(resistance)/pow(10.0,9.0))+" GΩ"
         }
         
-        var toleranceMap : [Int:String]=[0:" ±5%",1:" ±10%"]
+        var toleranceMap : [Int:String]=[0:" ±5%",1:" ±10%"] // Maps pickerFour indices to tolerance strings
         
-        valueString=valueString+toleranceMap[index4]!
-        resistorValue.setText("Resistor Value\n"+valueString)
+        valueString=valueString+toleranceMap[index4]! // Add the proper tolerance string to valueString
+        resistorValue.setText("Resistor Value\n"+valueString) // Set the resistorValue WKInterfaceLabel with updated value. 
     }
     
 }

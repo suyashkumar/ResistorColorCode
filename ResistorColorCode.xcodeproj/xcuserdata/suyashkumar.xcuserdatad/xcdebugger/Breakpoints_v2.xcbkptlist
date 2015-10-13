@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ResistorColorCode WatchKit Extension/InterfaceController.swift"
-            timestampString = "466398797.868339"
+            timestampString = "466399367.932477"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "InterfaceController"
             landmarkType = "3">
             <Locations>
@@ -88,11 +88,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ResistorColorCode WatchKit Extension/InterfaceController.swift"
-            timestampString = "466398797.868339"
+            timestampString = "466399367.932477"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "oneChanged(_:)"
             landmarkType = "5">
          </BreakpointContent>
