@@ -1,6 +1,6 @@
 //
 //  InterfaceController.swift
-//  test4 WatchKit Extension
+//  ResistorColorCode WatchKit Extension
 //
 //  Created by Suyash Kumar on 9/28/15.
 //  Copyright © 2015 Suyash Kumar. All rights reserved.
@@ -11,20 +11,21 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-    var index1=0
-    var index2=0
-    var index3=0
-    var index4=0
+    var index1=0 // Holds the current selection of band 1
+    var index2=0 // Holds the current selection of band 2
+    var index3=0 // Holds the current selection of band 3
+    var index4=0 // Holds the current selection of band 4
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        var pickerItems: [WKPickerItem] = []
+        
+    
+        var pickerItems: [WKPickerItem] = [] // Will hold the selectable band colors
+        // Create colored band items and add to pickerItems
         for i in 1...10 {
-            let item = WKPickerItem()
-            //item.title = ""
-            item.contentImage=WKImage(imageName: "\(i).png")
-            item.caption="a"
-            pickerItems.append(item)
+            let band = WKPickerItem()
+            band.contentImage=WKImage(imageName: "\(i).png")
+            pickerItems.append(band) // Add current band color to pickerItems
             
         }
         // Create Tolerance Picker Items
