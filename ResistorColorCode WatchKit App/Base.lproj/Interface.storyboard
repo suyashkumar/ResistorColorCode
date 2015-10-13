@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ResistorColorCode_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <separator alignment="left" id="eSr-k4-k1y"/>
+                        <label alignment="center" text="Resistor Value" textAlignment="center" numberOfLines="2" id="iVW-Nz-1DB"/>
+                        <separator alignment="left" id="zvU-JI-Lfg"/>
+                        <group width="1" height="90" alignment="left" verticalAlignment="bottom" id="ZQJ-cx-3xr">
+                            <items>
+                                <picker width="0.25" height="100" alignment="left" focusStyle="stack" id="GO5-zU-5lc">
+                                    <connections>
+                                        <action selector="oneChanged:" destination="AgC-eL-Hgc" id="kSp-BO-BML"/>
+                                    </connections>
+                                </picker>
+                                <picker width="0.25" height="100" alignment="left" focusStyle="stack" id="NZg-hM-pBq">
+                                    <connections>
+                                        <action selector="twoChanged:" destination="AgC-eL-Hgc" id="ZTW-aJ-Ov7"/>
+                                    </connections>
+                                </picker>
+                                <picker width="0.25" height="100" alignment="left" focusStyle="stack" id="Ky4-5X-f4f">
+                                    <connections>
+                                        <action selector="threeChanged:" destination="AgC-eL-Hgc" id="txy-pA-Rps"/>
+                                    </connections>
+                                </picker>
+                                <picker width="0.25" height="100" alignment="left" focusStyle="stack" id="y2h-QY-2LC">
+                                    <connections>
+                                        <action selector="fourChanged:" destination="AgC-eL-Hgc" id="WLd-pm-VK1"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="pickerFour" destination="y2h-QY-2LC" id="D4k-B2-UzR"/>
+                        <outlet property="pickerOne" destination="GO5-zU-5lc" id="8z0-Vk-SC3"/>
+                        <outlet property="pickerThree" destination="Ky4-5X-f4f" id="KGh-Ln-eQu"/>
+                        <outlet property="pickerTwo" destination="NZg-hM-pBq" id="U9d-dK-ZGg"/>
+                        <outlet property="resistorValue" destination="iVW-Nz-1DB" id="CMu-wk-Sg8"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="ResistorColorCode_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

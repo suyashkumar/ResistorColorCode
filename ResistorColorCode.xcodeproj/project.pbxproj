@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B54EF5631BCCA79E008B2D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EF5621BCCA79E008B2D1A /* AppDelegate.swift */; };
+		B54EF5651BCCA79E008B2D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EF5641BCCA79E008B2D1A /* ViewController.swift */; };
+		B54EF5681BCCA79E008B2D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54EF5661BCCA79E008B2D1A /* Main.storyboard */; };
+		B54EF56A1BCCA79E008B2D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54EF5691BCCA79E008B2D1A /* Assets.xcassets */; };
+		B54EF56D1BCCA79E008B2D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54EF56B1BCCA79E008B2D1A /* LaunchScreen.storyboard */; };
+		B54EF5781BCCA79E008B2D1A /* ResistorColorCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EF5771BCCA79E008B2D1A /* ResistorColorCodeTests.swift */; };
+		B54EF5831BCCA79E008B2D1A /* ResistorColorCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EF5821BCCA79E008B2D1A /* ResistorColorCodeUITests.swift */; };
+		B54EF5881BCCA79E008B2D1A /* ResistorColorCode WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B54EF5871BCCA79E008B2D1A /* ResistorColorCode WatchKit App.app */; };
+		B54EF58E1BCCA79E008B2D1A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54EF58C1BCCA79E008B2D1A /* Interface.storyboard */; };
+		B54EF5901BCCA79E008B2D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54EF58F1BCCA79E008B2D1A /* Assets.xcassets */; };
+		B54EF5971BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B54EF5961BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B54EF59E1BCCA79E008B2D1A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EF59D1BCCA79E008B2D1A /* InterfaceController.swift */; };
+		B54EF5A01BCCA79E008B2D1A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EF59F1BCCA79E008B2D1A /* ExtensionDelegate.swift */; };
+		B54EF5A21BCCA79E008B2D1A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54EF5A11BCCA79E008B2D1A /* NotificationController.swift */; };
+		B54EF5A41BCCA79E008B2D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54EF5A31BCCA79E008B2D1A /* Assets.xcassets */; };
+		B54EF5BA1BCCA827008B2D1A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54EF58C1BCCA79E008B2D1A /* Interface.storyboard */; settings = {ASSET_TAGS = (); }; };
+		B54EF5BC1BCCA8D6008B2D1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54EF5BB1BCCA8D6008B2D1A /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		B54EF5BD1BCCA8D6008B2D1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54EF5BB1BCCA8D6008B2D1A /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B54EF5741BCCA79E008B2D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54EF5571BCCA79E008B2D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54EF55E1BCCA79E008B2D1A;
+			remoteInfo = ResistorColorCode;
+		};
+		B54EF57F1BCCA79E008B2D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54EF5571BCCA79E008B2D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54EF55E1BCCA79E008B2D1A;
+			remoteInfo = ResistorColorCode;
+		};
+		B54EF5891BCCA79E008B2D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54EF5571BCCA79E008B2D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54EF5861BCCA79E008B2D1A;
+			remoteInfo = "ResistorColorCode WatchKit App";
+		};
+		B54EF5981BCCA79E008B2D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B54EF5571BCCA79E008B2D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54EF5951BCCA79E008B2D1A;
+			remoteInfo = "ResistorColorCode WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B54EF5AB1BCCA79E008B2D1A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B54EF5971BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF5AF1BCCA79E008B2D1A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B54EF5881BCCA79E008B2D1A /* ResistorColorCode WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B54EF55F1BCCA79E008B2D1A /* ResistorColorCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResistorColorCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54EF5621BCCA79E008B2D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B54EF5641BCCA79E008B2D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B54EF5671BCCA79E008B2D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B54EF5691BCCA79E008B2D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B54EF56C1BCCA79E008B2D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B54EF56E1BCCA79E008B2D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54EF5731BCCA79E008B2D1A /* ResistorColorCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResistorColorCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54EF5771BCCA79E008B2D1A /* ResistorColorCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorColorCodeTests.swift; sourceTree = "<group>"; };
+		B54EF5791BCCA79E008B2D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54EF57E1BCCA79E008B2D1A /* ResistorColorCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResistorColorCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54EF5821BCCA79E008B2D1A /* ResistorColorCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorColorCodeUITests.swift; sourceTree = "<group>"; };
+		B54EF5841BCCA79E008B2D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54EF5871BCCA79E008B2D1A /* ResistorColorCode WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ResistorColorCode WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54EF58D1BCCA79E008B2D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B54EF58F1BCCA79E008B2D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B54EF5911BCCA79E008B2D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54EF5961BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ResistorColorCode WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54EF59C1BCCA79E008B2D1A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B54EF59D1BCCA79E008B2D1A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B54EF59F1BCCA79E008B2D1A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B54EF5A11BCCA79E008B2D1A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B54EF5A31BCCA79E008B2D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B54EF5A51BCCA79E008B2D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54EF5BB1BCCA8D6008B2D1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B54EF55C1BCCA79E008B2D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF5701BCCA79E008B2D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF57B1BCCA79E008B2D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF5931BCCA79E008B2D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B54EF5561BCCA79E008B2D1A = {
+			isa = PBXGroup;
+			children = (
+				B54EF5611BCCA79E008B2D1A /* ResistorColorCode */,
+				B54EF5761BCCA79E008B2D1A /* ResistorColorCodeTests */,
+				B54EF5811BCCA79E008B2D1A /* ResistorColorCodeUITests */,
+				B54EF58B1BCCA79E008B2D1A /* ResistorColorCode WatchKit App */,
+				B54EF59A1BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension */,
+				B54EF5601BCCA79E008B2D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B54EF5601BCCA79E008B2D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54EF55F1BCCA79E008B2D1A /* ResistorColorCode.app */,
+				B54EF5731BCCA79E008B2D1A /* ResistorColorCodeTests.xctest */,
+				B54EF57E1BCCA79E008B2D1A /* ResistorColorCodeUITests.xctest */,
+				B54EF5871BCCA79E008B2D1A /* ResistorColorCode WatchKit App.app */,
+				B54EF5961BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B54EF5611BCCA79E008B2D1A /* ResistorColorCode */ = {
+			isa = PBXGroup;
+			children = (
+				B54EF5621BCCA79E008B2D1A /* AppDelegate.swift */,
+				B54EF5641BCCA79E008B2D1A /* ViewController.swift */,
+				B54EF5661BCCA79E008B2D1A /* Main.storyboard */,
+				B54EF5691BCCA79E008B2D1A /* Assets.xcassets */,
+				B54EF56B1BCCA79E008B2D1A /* LaunchScreen.storyboard */,
+				B54EF56E1BCCA79E008B2D1A /* Info.plist */,
+			);
+			path = ResistorColorCode;
+			sourceTree = "<group>";
+		};
+		B54EF5761BCCA79E008B2D1A /* ResistorColorCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B54EF5771BCCA79E008B2D1A /* ResistorColorCodeTests.swift */,
+				B54EF5791BCCA79E008B2D1A /* Info.plist */,
+			);
+			path = ResistorColorCodeTests;
+			sourceTree = "<group>";
+		};
+		B54EF5811BCCA79E008B2D1A /* ResistorColorCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B54EF5821BCCA79E008B2D1A /* ResistorColorCodeUITests.swift */,
+				B54EF5841BCCA79E008B2D1A /* Info.plist */,
+			);
+			path = ResistorColorCodeUITests;
+			sourceTree = "<group>";
+		};
+		B54EF58B1BCCA79E008B2D1A /* ResistorColorCode WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B54EF58C1BCCA79E008B2D1A /* Interface.storyboard */,
+				B54EF58F1BCCA79E008B2D1A /* Assets.xcassets */,
+				B54EF5BB1BCCA8D6008B2D1A /* Images.xcassets */,
+				B54EF5911BCCA79E008B2D1A /* Info.plist */,
+			);
+			path = "ResistorColorCode WatchKit App";
+			sourceTree = "<group>";
+		};
+		B54EF59A1BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B54EF59D1BCCA79E008B2D1A /* InterfaceController.swift */,
+				B54EF59F1BCCA79E008B2D1A /* ExtensionDelegate.swift */,
+				B54EF5A11BCCA79E008B2D1A /* NotificationController.swift */,
+				B54EF5A31BCCA79E008B2D1A /* Assets.xcassets */,
+				B54EF5A51BCCA79E008B2D1A /* Info.plist */,
+				B54EF59B1BCCA79E008B2D1A /* Supporting Files */,
+			);
+			path = "ResistorColorCode WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B54EF59B1BCCA79E008B2D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B54EF59C1BCCA79E008B2D1A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B54EF55E1BCCA79E008B2D1A /* ResistorColorCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54EF5B01BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCode" */;
+			buildPhases = (
+				B54EF55B1BCCA79E008B2D1A /* Sources */,
+				B54EF55C1BCCA79E008B2D1A /* Frameworks */,
+				B54EF55D1BCCA79E008B2D1A /* Resources */,
+				B54EF5AF1BCCA79E008B2D1A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54EF58A1BCCA79E008B2D1A /* PBXTargetDependency */,
+			);
+			name = ResistorColorCode;
+			productName = ResistorColorCode;
+			productReference = B54EF55F1BCCA79E008B2D1A /* ResistorColorCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B54EF5721BCCA79E008B2D1A /* ResistorColorCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54EF5B31BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCodeTests" */;
+			buildPhases = (
+				B54EF56F1BCCA79E008B2D1A /* Sources */,
+				B54EF5701BCCA79E008B2D1A /* Frameworks */,
+				B54EF5711BCCA79E008B2D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54EF5751BCCA79E008B2D1A /* PBXTargetDependency */,
+			);
+			name = ResistorColorCodeTests;
+			productName = ResistorColorCodeTests;
+			productReference = B54EF5731BCCA79E008B2D1A /* ResistorColorCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B54EF57D1BCCA79E008B2D1A /* ResistorColorCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54EF5B61BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCodeUITests" */;
+			buildPhases = (
+				B54EF57A1BCCA79E008B2D1A /* Sources */,
+				B54EF57B1BCCA79E008B2D1A /* Frameworks */,
+				B54EF57C1BCCA79E008B2D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54EF5801BCCA79E008B2D1A /* PBXTargetDependency */,
+			);
+			name = ResistorColorCodeUITests;
+			productName = ResistorColorCodeUITests;
+			productReference = B54EF57E1BCCA79E008B2D1A /* ResistorColorCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B54EF5861BCCA79E008B2D1A /* ResistorColorCode WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54EF5AC1BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCode WatchKit App" */;
+			buildPhases = (
+				B54EF5851BCCA79E008B2D1A /* Resources */,
+				B54EF5AB1BCCA79E008B2D1A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54EF5991BCCA79E008B2D1A /* PBXTargetDependency */,
+			);
+			name = "ResistorColorCode WatchKit App";
+			productName = "ResistorColorCode WatchKit App";
+			productReference = B54EF5871BCCA79E008B2D1A /* ResistorColorCode WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B54EF5951BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54EF5A81BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCode WatchKit Extension" */;
+			buildPhases = (
+				B54EF5921BCCA79E008B2D1A /* Sources */,
+				B54EF5931BCCA79E008B2D1A /* Frameworks */,
+				B54EF5941BCCA79E008B2D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ResistorColorCode WatchKit Extension";
+			productName = "ResistorColorCode WatchKit Extension";
+			productReference = B54EF5961BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B54EF5571BCCA79E008B2D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Suyash Kumar";
+				TargetAttributes = {
+					B54EF55E1BCCA79E008B2D1A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B54EF5721BCCA79E008B2D1A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B54EF55E1BCCA79E008B2D1A;
+					};
+					B54EF57D1BCCA79E008B2D1A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B54EF55E1BCCA79E008B2D1A;
+					};
+					B54EF5861BCCA79E008B2D1A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B54EF5951BCCA79E008B2D1A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B54EF55A1BCCA79E008B2D1A /* Build configuration list for PBXProject "ResistorColorCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B54EF5561BCCA79E008B2D1A;
+			productRefGroup = B54EF5601BCCA79E008B2D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B54EF55E1BCCA79E008B2D1A /* ResistorColorCode */,
+				B54EF5721BCCA79E008B2D1A /* ResistorColorCodeTests */,
+				B54EF57D1BCCA79E008B2D1A /* ResistorColorCodeUITests */,
+				B54EF5861BCCA79E008B2D1A /* ResistorColorCode WatchKit App */,
+				B54EF5951BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B54EF55D1BCCA79E008B2D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54EF56D1BCCA79E008B2D1A /* LaunchScreen.storyboard in Resources */,
+				B54EF56A1BCCA79E008B2D1A /* Assets.xcassets in Resources */,
+				B54EF5681BCCA79E008B2D1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF5711BCCA79E008B2D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF57C1BCCA79E008B2D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF5851BCCA79E008B2D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54EF5BC1BCCA8D6008B2D1A /* Images.xcassets in Resources */,
+				B54EF5901BCCA79E008B2D1A /* Assets.xcassets in Resources */,
+				B54EF58E1BCCA79E008B2D1A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF5941BCCA79E008B2D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54EF5BD1BCCA8D6008B2D1A /* Images.xcassets in Resources */,
+				B54EF5BA1BCCA827008B2D1A /* Interface.storyboard in Resources */,
+				B54EF5A41BCCA79E008B2D1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B54EF55B1BCCA79E008B2D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54EF5651BCCA79E008B2D1A /* ViewController.swift in Sources */,
+				B54EF5631BCCA79E008B2D1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF56F1BCCA79E008B2D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54EF5781BCCA79E008B2D1A /* ResistorColorCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF57A1BCCA79E008B2D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54EF5831BCCA79E008B2D1A /* ResistorColorCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54EF5921BCCA79E008B2D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54EF5A21BCCA79E008B2D1A /* NotificationController.swift in Sources */,
+				B54EF5A01BCCA79E008B2D1A /* ExtensionDelegate.swift in Sources */,
+				B54EF59E1BCCA79E008B2D1A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B54EF5751BCCA79E008B2D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54EF55E1BCCA79E008B2D1A /* ResistorColorCode */;
+			targetProxy = B54EF5741BCCA79E008B2D1A /* PBXContainerItemProxy */;
+		};
+		B54EF5801BCCA79E008B2D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54EF55E1BCCA79E008B2D1A /* ResistorColorCode */;
+			targetProxy = B54EF57F1BCCA79E008B2D1A /* PBXContainerItemProxy */;
+		};
+		B54EF58A1BCCA79E008B2D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54EF5861BCCA79E008B2D1A /* ResistorColorCode WatchKit App */;
+			targetProxy = B54EF5891BCCA79E008B2D1A /* PBXContainerItemProxy */;
+		};
+		B54EF5991BCCA79E008B2D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B54EF5951BCCA79E008B2D1A /* ResistorColorCode WatchKit Extension */;
+			targetProxy = B54EF5981BCCA79E008B2D1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B54EF5661BCCA79E008B2D1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54EF5671BCCA79E008B2D1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B54EF56B1BCCA79E008B2D1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54EF56C1BCCA79E008B2D1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B54EF58C1BCCA79E008B2D1A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B54EF58D1BCCA79E008B2D1A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B54EF5A61BCCA79E008B2D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B54EF5A71BCCA79E008B2D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B54EF5A91BCCA79E008B2D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ResistorColorCode WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCode.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B54EF5AA1BCCA79E008B2D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ResistorColorCode WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCode.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B54EF5AD1BCCA79E008B2D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ResistorColorCode_WatchKit_Extension;
+				INFOPLIST_FILE = "ResistorColorCode WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCode.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B54EF5AE1BCCA79E008B2D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ResistorColorCode_WatchKit_Extension;
+				INFOPLIST_FILE = "ResistorColorCode WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCode.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B54EF5B11BCCA79E008B2D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ResistorColorCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B54EF5B21BCCA79E008B2D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ResistorColorCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B54EF5B41BCCA79E008B2D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ResistorColorCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResistorColorCode.app/ResistorColorCode";
+			};
+			name = Debug;
+		};
+		B54EF5B51BCCA79E008B2D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ResistorColorCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResistorColorCode.app/ResistorColorCode";
+			};
+			name = Release;
+		};
+		B54EF5B71BCCA79E008B2D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ResistorColorCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ResistorColorCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B54EF5B81BCCA79E008B2D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ResistorColorCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashkumar.suyash.ResistorColorCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ResistorColorCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B54EF55A1BCCA79E008B2D1A /* Build configuration list for PBXProject "ResistorColorCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54EF5A61BCCA79E008B2D1A /* Debug */,
+				B54EF5A71BCCA79E008B2D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54EF5A81BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCode WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54EF5A91BCCA79E008B2D1A /* Debug */,
+				B54EF5AA1BCCA79E008B2D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B54EF5AC1BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCode WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54EF5AD1BCCA79E008B2D1A /* Debug */,
+				B54EF5AE1BCCA79E008B2D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B54EF5B01BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54EF5B11BCCA79E008B2D1A /* Debug */,
+				B54EF5B21BCCA79E008B2D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B54EF5B31BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54EF5B41BCCA79E008B2D1A /* Debug */,
+				B54EF5B51BCCA79E008B2D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B54EF5B61BCCA79E008B2D1A /* Build configuration list for PBXNativeTarget "ResistorColorCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54EF5B71BCCA79E008B2D1A /* Debug */,
+				B54EF5B81BCCA79E008B2D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B54EF5571BCCA79E008B2D1A /* Project object */;
+}

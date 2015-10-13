@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ResistorColorCode WatchKit Extension/InterfaceController.swift"
+            timestampString = "466397302.627227"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "InterfaceController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ResistorColorCode_WatchKit_Extension.InterfaceController.pickerOne.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.WKInterfacePicker&gt;"
+                  moduleName = "ResistorColorCode WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suyashkumar/Dropbox/Duke/Projects/ResistorColorCode/ResistorColorCode%20WatchKit%20Extension/InterfaceController.swift"
+                  timestampString = "466397302.631095"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ResistorColorCode_WatchKit_Extension.InterfaceController.pickerOne.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.WKInterfacePicker&gt;"
+                  moduleName = "ResistorColorCode WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suyashkumar/Dropbox/Duke/Projects/ResistorColorCode/ResistorColorCode%20WatchKit%20Extension/InterfaceController.swift"
+                  timestampString = "466397302.631336"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ResistorColorCode_WatchKit_Extension.InterfaceController.pickerOne.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.WKInterfacePicker&gt;"
+                  moduleName = "ResistorColorCode WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suyashkumar/Dropbox/Duke/Projects/ResistorColorCode/ResistorColorCode%20WatchKit%20Extension/InterfaceController.swift"
+                  timestampString = "466397302.631534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ResistorColorCode_WatchKit_Extension.InterfaceController.init (ResistorColorCode_WatchKit_Extension.InterfaceController.Type)() -&gt; ResistorColorCode_WatchKit_Extension.InterfaceController"
+                  moduleName = "ResistorColorCode WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suyashkumar/Dropbox/Duke/Projects/ResistorColorCode/ResistorColorCode%20WatchKit%20Extension/InterfaceController.swift"
+                  timestampString = "466397302.63172"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ResistorColorCode WatchKit Extension/InterfaceController.swift"
+            timestampString = "466397334.817965"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "oneChanged(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
